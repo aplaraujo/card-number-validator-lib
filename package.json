@@ -1,0 +1,31 @@
+{
+  "name": "card-number-validator-lib",
+  "version": "1.0.0",
+  "description": "Biblioteca de validação de números de cartão de crédito",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nyc ./node_modules/mocha/bin/mocha test/*.js --require babel-register --reporter spec || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aplaraujo/card-number-validator-lib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aplaraujo/card-number-validator-lib/issues"
+  },
+  "homepage": "https://github.com/aplaraujo/card-number-validator-lib#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
