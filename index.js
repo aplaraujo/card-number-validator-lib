@@ -45,4 +45,4 @@ const cardValidator = (cardNumber) => {
   
   console.log(cardValidator("0000 0000 0000 0000"))
 
-  export default { cardValidator }
+module.exports =  { cardValidator }
